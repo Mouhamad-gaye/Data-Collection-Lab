@@ -12,7 +12,10 @@ let ArrayOfObjects = [];
 
 for (let i = 1; i < rows.length; i++){
     console.log(i)
-
+    let secondRowVal = rows[i].split(',')
+    if( secondRowVal.length === topRow.length)
+        console.log(secondRowVal)
+    
 }
 
 

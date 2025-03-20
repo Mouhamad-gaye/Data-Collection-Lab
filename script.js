@@ -15,7 +15,8 @@ for (let i = 1; i < rows.length; i++){
     let secondRowVal = rows[i].split(',')
     if( secondRowVal.length === topRow.length)
         console.log(secondRowVal)
-    
+    topRow.unshift[0]
+    console.log(topRow)
 }
 
 
